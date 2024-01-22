@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{69C84763-8525-4554-B703-1AA46DB171EF}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E56E8E6A-7393-4D47-9D88-6915516A3209}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShop" Key="{1DA0E71D-92E9-469B-9FBC-A484E0D652D2}">
+								<Image FileName="1089116859" Left="0" Top="151" Right="1920" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{7A9CA9A4-91EE-4DD1-9AF1-EA5CE204404A}">
+										<Image FileName="1089116859" Left="237" Top="404" Right="1662" Bottom="2924" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleFurniture" Key="{C70E467D-5F1E-4BE2-86C4-84BA761F0604}">
+										<Image FileName="1089116859" Left="725" Top="580" Right="940" Bottom="833" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Furniture&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFurniture" Key="{0FA02AEB-CACF-45E1-BE80-78A374AF31F9}">
+										<Image FileName="-919507158" Left="796" Top="789" Right="868" Bottom="812" />
+										<TypeInfo Item0="{C43F57D5-3A6A-45C3-9593-098B238DD0B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article[3]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[3]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E56E8E6A-7393-4D47-9D88-6915516A3209}">
+			<Child Name="pageShop" Owner="{1DA0E71D-92E9-469B-9FBC-A484E0D652D2}">
+				<Child Name="sectionContent" Owner="{7A9CA9A4-91EE-4DD1-9AF1-EA5CE204404A}">
+					<Child Name="articleFurniture" Owner="{C70E467D-5F1E-4BE2-86C4-84BA761F0604}">
+						<Child Name="textnodeFurniture" Owner="{0FA02AEB-CACF-45E1-BE80-78A374AF31F9}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
