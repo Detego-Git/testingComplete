@@ -3,5 +3,6 @@
 	<children>
 		<child name="Test1" key="{AC990AC3-36B3-4866-ACFE-0F2A3DBAC39E}" path="Test1.tcKDTest" />
 		<child name="GYL_LPIGF" key="{FA69A0DD-752D-43BE-9C62-8C3DA16E02A3}" path="GYL_LPIGF.tcKDTest" />
+		<child name="Test2" key="{506B5E55-13FE-4141-8B3A-8580DA569761}" path="Test2.tcKDTest" />
 	</children>
 </Root>
