@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{506B5E55-13FE-4141-8B3A-8580DA569761}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45313.5174305556" objectName="Aliases.browser.pageTestcompleteQaArchitectSmart.form.headerPLtHeader.textnodeLogin.linkLogin" objectLeft="1461" objectTop="167" objectRight="1561" objectBottom="217" clickPointX="1505" clickPointY="199" imageFileName="tcvi24447734143560.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45313.5174421296" objectName="Aliases.browser.pageTestcompleteQaArchitectSmart.form.panelLogIn" objectLeft="0" objectTop="151" objectRight="1920" objectBottom="1140" clickPointX="1505" clickPointY="199" imageFileName="tcvi24448234143561.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45313.5175810185" objectName="Aliases.browser.pageTestcompleteQaArchitectSmart.form.textnodeCucumberstudio" objectLeft="1059" objectTop="542" objectRight="1188" objectBottom="568" clickPointX="1096" clickPointY="563" imageFileName="tcvi24460625143563.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

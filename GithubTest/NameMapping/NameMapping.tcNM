@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{69C84763-8525-4554-B703-1AA46DB171EF}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E56E8E6A-7393-4D47-9D88-6915516A3209}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShop" Key="{1DA0E71D-92E9-469B-9FBC-A484E0D652D2}">
+								<Image FileName="1089116859" Left="0" Top="151" Right="1920" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{7A9CA9A4-91EE-4DD1-9AF1-EA5CE204404A}">
+										<Image FileName="1089116859" Left="237" Top="404" Right="1662" Bottom="2924" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleFurniture" Key="{C70E467D-5F1E-4BE2-86C4-84BA761F0604}">
+										<Image FileName="1089116859" Left="725" Top="580" Right="940" Bottom="833" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Furniture&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFurniture" Key="{0FA02AEB-CACF-45E1-BE80-78A374AF31F9}">
+										<Image FileName="-919507158" Left="796" Top="789" Right="868" Bottom="812" />
+										<TypeInfo Item0="{C43F57D5-3A6A-45C3-9593-098B238DD0B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-center&apos;]//article[3]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[3]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{9602AE19-04F1-4D6F-9B2C-BE7C4E764F09}">
+								<Image FileName="-1876939465" Left="-9" Top="-9" Right="1929" Bottom="1149" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageTestcompleteQaArchitectSmart" Key="{A063DE1E-7213-47D9-BB96-998DBB7B022E}">
+								<Image FileName="-1876939465" Left="0" Top="151" Right="1920" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/academy/testcomplete/testcomplete-qa-architect/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{BFF34CC9-A7BB-4AFB-BB2A-96E7F8D18D3A}">
+										<Image FileName="-1876939465" Left="0" Top="-1478" Right="1899" Bottom="2354" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;testcomplete-qa-architect&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{76D3A150-81A3-4F1F-8DDA-C78ED31FD11B}">
+										<Image FileName="-1876939465" Left="0" Top="151" Right="0" Bottom="151" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogin" Key="{12BA0D72-2E1A-47BF-9401-507743F04D7D}">
+										<Image FileName="-1876939465" Left="1436" Top="151" Right="1561" Bottom="232" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;nav-item-login&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogin" Key="{F32F6283-DEB1-4D81-9EA6-F1CBFC8E82E7}">
+										<Image FileName="-1876939465" Left="1461" Top="167" Right="1561" Bottom="217" />
+										<TypeInfo Item0="{C43F57D5-3A6A-45C3-9593-098B238DD0B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;login-modal-show&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLogIn" Key="{468F21F3-67B7-4F5F-BD9F-3DA0D263E9B8}">
+										<Image FileName="94547893" Left="0" Top="151" Right="1920" Bottom="1140" />
+										<TypeInfo Item0="{C43F57D5-3A6A-45C3-9593-098B238DD0B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;login-modal-overlay&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCucumberstudio" Key="{847A409F-945E-4F85-8168-A048F6FF7699}">
+										<Image FileName="285232898" Left="1059" Top="542" Right="1188" Bottom="568" />
+										<TypeInfo Item0="{C43F57D5-3A6A-45C3-9593-098B238DD0B3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[4]/a/span[contains(@class, &apos;tile-prod-title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E56E8E6A-7393-4D47-9D88-6915516A3209}">
+			<Child Name="pageShop" Owner="{1DA0E71D-92E9-469B-9FBC-A484E0D652D2}">
+				<Child Name="sectionContent" Owner="{7A9CA9A4-91EE-4DD1-9AF1-EA5CE204404A}">
+					<Child Name="articleFurniture" Owner="{C70E467D-5F1E-4BE2-86C4-84BA761F0604}">
+						<Child Name="textnodeFurniture" Owner="{0FA02AEB-CACF-45E1-BE80-78A374AF31F9}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{9602AE19-04F1-4D6F-9B2C-BE7C4E764F09}" />
+			<Child Name="pageTestcompleteQaArchitectSmart" Owner="{A063DE1E-7213-47D9-BB96-998DBB7B022E}">
+				<Child Name="form" Owner="{BFF34CC9-A7BB-4AFB-BB2A-96E7F8D18D3A}">
+					<Child Name="headerPLtHeader" Owner="{76D3A150-81A3-4F1F-8DDA-C78ED31FD11B}">
+						<Child Name="textnodeLogin" Owner="{12BA0D72-2E1A-47BF-9401-507743F04D7D}">
+							<Child Name="linkLogin" Owner="{F32F6283-DEB1-4D81-9EA6-F1CBFC8E82E7}" />
+						</Child>
+					</Child>
+					<Child Name="panelLogIn" Owner="{468F21F3-67B7-4F5F-BD9F-3DA0D263E9B8}" />
+					<Child Name="textnodeCucumberstudio" Owner="{847A409F-945E-4F85-8168-A048F6FF7699}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
