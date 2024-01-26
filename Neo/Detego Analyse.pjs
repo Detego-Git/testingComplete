@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{C5C747CA-6108-4F6F-BFC4-08074F0BEC6B}">
+	<children>
+		<child name="Detego Analyse" key="{109DBF00-AC7E-4FED-95B5-33A4396C8122}" path="Detego Analyse\Detego Analyse.mds" />
+	</children>
+	<testItems key="{B8A8E9A5-E553-41D0-B089-D8CE66996126}">
+		<children>
+			<testItem key="{109DBF00-AC7E-4FED-95B5-33A4396C8122}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E517B3B7-4CFC-4772-B64F-71DC8B0D7C4A}" />
+	<analysis key="{F7CABD8A-F356-46F5-A089-43405F5875BA}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
